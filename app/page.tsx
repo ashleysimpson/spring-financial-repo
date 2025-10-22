@@ -113,10 +113,6 @@ export default function Page() {
         <Text mt={2} fontSize="sm" color="gray.600">
           {total} products found
         </Text>
-        <Text mt={2} fontSize="xs" color="gray.400">
-          Debug: page={page}, limit={limit}, total={total}, products.length=
-          {products.length}
-        </Text>
       </Box>
 
       {loading && products.length === 0 ? (
