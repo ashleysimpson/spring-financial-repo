@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [main, add-product-functional-testing]
+    branches: [main]
   pull_request:
-    branches: [main, add-product-functional-testing]
+    branches: [main]
 
 jobs:
   test:
