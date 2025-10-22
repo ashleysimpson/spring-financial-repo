@@ -91,7 +91,7 @@ export default function Page() {
     <Box p={8}>
       <Stack direction="row" justify="space-between" align="center" mb={6}>
         <Heading size="lg">Products</Heading>
-        <Button colorScheme="teal" onClick={generate} disabled={true}>
+        <Button colorScheme="teal" onClick={generate}>
           Generate 100 Products
         </Button>
       </Stack>
